@@ -1,0 +1,50 @@
+﻿@model SmartHomeManagementHub.Web.Models.DailyChores
+
+<h1>Add Daily Chore</h1>
+
+<form asp-action="Add" method="post">
+
+    <div>
+        <label>Task</label>
+        <input type="text" name="Task" />
+    </div>
+
+    <br />
+
+    <div>
+        <label>Assigned Person</label>
+        <input type="text" name="AssignedPerson" />
+    </div>
+
+    <br />
+
+    <div>
+        <label>Day</label>
+        <input type="text" name="Day" />
+        <span asp-validation-for="Day"></span>
+    </div>
+
+    <br />
+
+    <div>
+        <label>Status</label>
+        <input type="text" name="Status" />
+        <span asp-validation-for="Status"></span>
+    </div>
+
+    <br />
+
+    <button type="submit">Add Chore</button>
+
+</form>
+@if (Model != null)
+{
+    <hr />
+
+    <h2>Chore Added</h2>
+
+    <p>Task: @Model.Task</p>
+    <p>Assigned Person: @Model.AssignedPerson</p>
+    <p>Day: @Model.Day</p>
+    <p>Status: @Model.Status</p>
+}

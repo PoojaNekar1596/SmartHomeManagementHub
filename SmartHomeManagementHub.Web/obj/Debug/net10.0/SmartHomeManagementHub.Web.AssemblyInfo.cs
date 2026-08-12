@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SmartHomeManagementHub.Web")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e480d39ac0170f79ab25bd4727c925c43f4f3321")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d602c4f89d5e4a8d5276a624c859e7db73ae7eb4")]
 [assembly: System.Reflection.AssemblyProductAttribute("SmartHomeManagementHub.Web")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SmartHomeManagementHub.Web")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
